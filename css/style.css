@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: poppins1;
+	src: url("../font/Poppins-Regular.ttf")}
+@font-face{
+	font-family: poppins2;
+	src: url( "../font/Poppins-Bold.ttf")}
+h1,h3,h6,h7,h8,h10{font-family: poppins2}
+a,li,h2,p, h4, h5,h9{ font-family : poppins1}
+.header{ background: black; height: 80px;}
+.logo{ display: flex; align-items: center;}
+img{ width:20%; height: 40px; margin-left: 16px;  }
+h1{color:white; font-size : 16px; margin-left: 8px;}
+.navbar{height: 80px; display: flex; align-items: center; justify-content: center;}
+.navbar ul{ width: 100%; life-style: none; display: flex; justify-content: space-around; }
+.navbar ul li{width: 150px; height: 80px; display: flex; align-items: center; justify-content:center;position: relative;}
+.navbar ul li a{text-decoration: none; color: white;font-size: 16px;}
+.navbar ul li:hover{ background: yellow;}
+.navbar ul li:hover a{ color: black; font-family: poppins2;}
+.navbar ul li ul{position: absolute; top: 80px;display: flex; flex-direction: column; visibility: hidden; background: white; }
+.navbar ul li ul li{width: 100%; height: 40px;}
+.navbar ul li:hover ul{visibility: visible; color: black;}
+.btn{display:flex;align-items: center;justify-content: flex-end;}
+.box i{color: black; margin-left: 8px; }
+.box{ display: flex; align-items:center;background : white; border-radius: 50px; width:160px; margin-right:16px; }
+.se{ margin-left: 3px; width:70%; height: 24px; border:none; color:black;}
+.banner{height: 400px;background: black;display: flex;align-items: center;border-radius: 0 0 80px 80px;}
+h3{color: white;font-size: 36px;}
+p{color: white; font-size: 16px;margin-top: 16px;}
+.btn2{display: flex;margin-top: 16px;}
+button.shop{ width:120px; height: 40px; border-radius: 50px; background: black; border: 2px solid white; color: white; font-size: 16px;}
+.shop:hover{background:yellow;color:black;}
+button.login{width: 40px; height: 40px;border-radius: 50px; border: none; background: white; display: flex; justify-content: center;align-items: center; margin-left: 8px;}
+button.login i{ color: black; font-size: 16px;}
+.login:hover i{color:black;}
+.login:hover{background:yellow;} 
+.page1 img{width: 80%; height: 200px;}
+.tong{background:yellow;}
+.banner2{ background : yellow; height: 400px; display:flex; align-items: center; justify-content:center;}
+.page2 img{width: 90%; height:90%;}
+.page2{display:flex; justify-content:center;align-items:center;}
+h4{font-size:24px;text-align:center;margin-bottom: 16px;}
+h5{font-size:16px; text-align: center; margin: 24px 0 16px 0;}
+.boxa{width:28%; background: white; border-radius: 50px; height: 220px; float: left; margin: 16px; }
+.p2t{color:black; font-size : 16px; margin-left: 16px; margin-top: 16px;}
+.banner3{ background : white; height: 280px; display:flex; align-items: center; justify-content:center;}
+.p3t{color:black; font-size : 24px; text-align:center;margin-top:8px; }
+.boxb{width:100%;}
+.p3{float:left;}
+.boxs{width:90%; height:200px; background: black; border-radius:50px;}
+.boxs2{width:90%; height:200px; background: yellow; border-radius:50px;}
+h6{font-size:24px;color:white;display:flex; justify-content:center;padding-top:80px; }
+h7{font-size:24px;display:flex; justify-content:center;padding-top:80px; }
+.banner4{ background : black; height: 320px; display:flex; align-items: center; justify-content:center;}
+.page4 img{width: 80%; height: 200px;}
+h8{color:yellow; font-size:36px; marign-left:8px;}
+.email{width:70%;height: 36px; border: 1px solid white; display: flex;justify-content: space-between;margin-top: 16px;border-radius: 20px;}
+.el{ margin: 5px 0 0 8px; width:50%; border:1px solid black; background:black; height:24px; color:white;}
+.sub{background:yellow; width:40%; border-radius:20px; height:24px; margin: 5px 5px 0 0; }
+.p4t{color:black; font-size:16px; text-decoration:none; margin: 24px 0 0 24px; }
+.sub:hover{background:black;}
+.sub a:hover{color:yellow;}
+.banner5{ background : white; height: 280px; display:flex; align-items: center; justify-content:center;}
+.logo2{width:24%; height:100px; float:left;margin-right:8px;}
+h9{font-size:16px;}
+.btn3{display: flex;margin:8px; }
+button.social{width: 40px; height: 40px;border-radius: 16px; border: none; background: black; display: flex; justify-content: center;align-items: center; margin-left: 8px;}
+button.social i{ color: yellow; font-size: 16px;}
+.boxf ul{list-style: none;}
+.boxf ul li{margin-top: 16px; font-size:16px;}
+h10{font-size: 16px;}
+.boxend{ margin-top:16px;}
+
